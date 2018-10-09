@@ -1,0 +1,40 @@
+
+.calculator {
+  margin: 30px auto;
+  background-color: buttonface;
+  box-sizing: border-box;
+  width: 348px;
+  padding: 12px;
+  border-radius: 0.4em;
+}
+.inner-wrapper, .btns-wrapperis {
+  width: 324px;
+  border-radius: 0.4em;
+}
+.calculator * {
+  font-size: 24px;
+}
+.screen {
+  margin: 6px;
+  background-color: lightgreen;
+  height: 50px;
+  border-radius: 0.4em;
+}
+.calculator div div div button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 68px;
+  padding: 0;
+  margin: 6px;
+  background-color: #fff;
+  border-radius: 0.4em;
+}
+.calculator div div div {
+  display: flex;
+  justify-content: space-between;
+}
+.calculator div div div .c {
+  background-color: #ff4d4d;
+}
