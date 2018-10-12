@@ -39,9 +39,9 @@
                     <button class="plus" onclick="changeOperator('add')">+</button>
                 </div>
                 <div class="row">
-                    <button class="neg" data-neg="negative-positive">±</button>
+                    <button class="neg" data-neg="negative-positive" onclick="addNeg()">±</button>
                     <button onclick="addNumber('0')">0</button>
-                    <button data-dot="dot">.</button>
+                    <button data-dot="dot" onclick="addNumber('.')">.</button>
                     <button class="eq" onclick="getResult()">=</button>
                 </div>
             </div>
